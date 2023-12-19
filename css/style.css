@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins&display=swap');
+*{
+    margin: 0;
+    overflow-x: hidden;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: #71797e;
+    z-index: 80;
+    width: 100vw;
+}
+span{
+    color: white;
+}
+section{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+#banner{
+    background: rgba(0, 0, 0, 1);
+    z-index: 50;
+}
+h1{
+    position: relative;
+    font-size: xx-large;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    z-index: 85;
+    text-align: center;
+    top: 30vh;
+}
+.hbodies{
+    display: inline-block;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+#gasgiant{
+    background: url(../images/gas-giant-1.gif);
+    width: 150px;
+    height: 150px;
+    transform: translatey(30vh) rotatez(90deg);
+}
+#terranwet{
+    background: url(../images/terran-wet-1.gif);
+    width: 100px;
+    height: 100px;
+    transform: translatex(50vw);
+}
+#blackhole{
+    background: url(../images/black-hole.gif);
+    width: 50px;
+    height: 50px;
+    transform: translate(60vw, 30vh) scale(2) rotate(67.5deg);
+}
